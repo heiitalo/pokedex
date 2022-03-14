@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Home from './paginas/home/Home';
 import './App.css';
 
-let nome = "italo"
+
 
 function App() {
   return (
-    <h1>{nome}</h1>
+    <Home />
   );
 }
 
