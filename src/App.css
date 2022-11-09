@@ -58,59 +58,86 @@ nav {
 .pokedex-grid {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .pokemon-card {
   display: flex;
   box-shadow: 4px 4px 4px (0, 0, 0, 0.25);
   border-radius: 3px;
+
 }
-.pokemon-image{
+.pokemon-image {
   width: 70px;
   height: 70px;
   margin-right: 10px;
 }
-.pokemon-image-container{
-padding: 0px 5px;
+.pokemon-image-container {
+  padding: 0px 5px;
 }
 
-.card-body{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 10px 10px 10px 0px;
-flex: 1;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0px;
+  flex: 1;
 }
 
-.card-top{
+.card-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
-.card-top h3{
-text-transform: capitalize;
-}
-
-.card-bottom{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-}
-
-.pokemon-type{
-  display: flex;
-}
-.pokemon-type-text{
-  margin-right: 10px;
+.card-top h3 {
   text-transform: capitalize;
 }
 
-.pagination-container{
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon-type {
+  display: flex;
+}
+.pokemon-type-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  border-radius: 50px;
+}
+
+.pagination-container {
   display: flex;
   flex-direction: row;
   border-radius: 50px;
+}
+
+ a{
+  text-decoration: none;
+  color: black;
+}
+
+.pokemon-tela{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.pokemon-card-tela{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pokemon-image-tela{
+  width: 150px;
+  margin-top: 50px;
+  
 }
