@@ -73,8 +73,6 @@ nav {
   box-shadow: 4px 4px 4px (0, 0, 0, 0.25);
   border-radius: 10px;
   background-color: #ffffff50;
-
-
 }
 .pokemon-image {
   width: 70px;
@@ -117,6 +115,9 @@ nav {
   margin-right: 10px;
   text-transform: capitalize;
   border-radius: 50px;
+  background-color: #ffffff40;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .pagination-container {
@@ -125,51 +126,49 @@ nav {
   border-radius: 50px;
 }
 
- a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.pokemon-tela{
+.pokemon-tela {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #4f5b66;
-  
 }
-.pokemon-card-tela{
+.pokemon-card-tela {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px;
- 
-  border-radius: 10px;
 
+  border-radius: 10px;
 }
 
-.pokemomon-card-tela-header{
+.pokemomon-card-tela-header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff60;
+  background-color: #ffffff30;
   width: 512px;
-  border-radius: 10px 10px 0px 0px  ;
+  border-radius: 10px 10px 0px 0px;
 }
-.pokemon-card-tela-body{
-  background-color: #ffffff50;
+.pokemon-card-tela-body {
+  background-color: #ffffff30;
   width: 512px;
   border-radius: 0px 0px 10px 10px;
 }
 
-.pokemon-type{
+.pokemon-type {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.pokemon-type-text-tela{
+.pokemon-type-text-tela {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -179,18 +178,197 @@ nav {
   padding-right: 5px;
 }
 
-.pokemon-tela-moves{
+.pokemon-tela-moves {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
-  
 }
-.pokemon-tela-move{
+.pokemon-tela-move {
   display: grid;
   background-color: #ffffff60;
   border-radius: 10px;
   margin-top: 2px;
 }
 
+.footer {
+  position: static;
+  background-color: #c62827;
+  width: 100%;
+  height: 70px;
+}
 
+.pokemon-tela-fire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #000000, #cf0a0a, #dc5f00, #eeeeee);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-grass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #425F57, #749F82, #A8E890, #CFFF8D);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-water {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-steel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-dragon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-eletric {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-fairy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-ghost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-ice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-bug {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-fighting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-normal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-rock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-psychic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-ground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-poison {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+.pokemon-tela-flying {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background-size: 400% 400%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

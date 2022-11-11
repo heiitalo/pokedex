@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Pokedex from "./components/Pokedex";
 import Searchbar from "./components/Searchbar";
 import PokemonTela from "./components/PokemonTela";
+import Footer from "./components/Footer";
 
 function App() {
   const [page, setPage] = useState(0);
@@ -14,7 +15,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [pokemons, setPokemons] = useState([]);
 
-  const itensPerpage = 28;
+  const itensPerpage = 32;
   const fetchPokemons = async () => {
     try {
       setLoading(true);
@@ -32,7 +33,6 @@ function App() {
     }
   };
   useEffect(() => {
-    console.log("carregou");
     fetchPokemons();
   }, [page]);
 
@@ -55,6 +55,7 @@ function App() {
         />
         <Route path="/PokemonTela" element={<PokemonTela />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
