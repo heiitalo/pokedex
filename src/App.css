@@ -230,7 +230,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #EFF5F5, #D6E4E5, #497174, #CEDDEF);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -239,16 +239,16 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #FFE15D, #F49D1A, #1F3C88, #B01E68);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
-.pokemon-tela-eletric {
+.pokemon-tela-electric {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #FFF38C, #F0E161, #D9CB50, #C0B236);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -257,7 +257,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #FFB9B9, #FFDDD2, #FFACC7, #FF8DC7);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -266,7 +266,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #8BBCCC, #4C6793, #5C2E7E, #000000);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -275,7 +275,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #F4F9F9, #CCF2F4, #A4EBF3, #AAAAAA);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -284,7 +284,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #AC4425, #224B0C, #C1D5A4, #F0F2B6);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -293,7 +293,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #FFF8EA, #9E7676, #815B5B, #594545);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -302,7 +302,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #594545, #815B5B, #9E7676, #FFF8EA);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -311,7 +311,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #B7C4CF, #EEE3CB, #D7C0AE, #967E76);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -320,7 +320,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #6C4AB6, #8D72E1, #8D9EFF, #B9E0FF);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -329,7 +329,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #000000, #3E065F, #700B97, #8E05C2);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -338,7 +338,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #61481C, #A47E3B, #BF9742, #E6B325);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -347,7 +347,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #070D59, #3E065F, #700B97, #8E05C2);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }
@@ -356,7 +356,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #070D59, #1F3C88, #5893D4, #CEDDEF);
+  background: linear-gradient(45deg, #D8D9CF, #EDEDED, #FF8787, #E26868);
   background-size: 400% 400%;
   animation: colors 15s ease infinite;
 }

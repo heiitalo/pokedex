@@ -24,3 +24,13 @@ export const getPokemonData = async (url) => {
         console.log("error: ", error)
     }
 }
+
+export const getPokemonMove = async (getPokemonMove) => {
+    try {
+        let url = `${getPokemonMove}`
+        const response = await fetch (url)
+        return await response.json()
+    } catch (error) {
+        console.log("errorMove:", error)
+    }
+}
