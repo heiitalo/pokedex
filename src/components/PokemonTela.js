@@ -21,7 +21,7 @@ const PokemonTela = () => {
             <div className="pokemon-type">
               {pokemon.state.types.map((type, index) => {
                 return (
-                  <div key={index} className="pokemon-type-text-tela">
+                  <div key={type.type.name} className="pokemon-type-text-tela">
                     <h3>{type.type.name}</h3>
                   </div>
                 );
@@ -67,11 +67,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -102,11 +100,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -137,11 +133,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -172,11 +166,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -207,11 +199,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -242,11 +232,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -277,11 +265,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -312,11 +298,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -347,11 +331,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -382,11 +364,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link key={index} to="/PokemonMoveTela">
-                <div className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -417,11 +397,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -452,11 +430,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -487,11 +463,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -522,11 +496,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -557,11 +529,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -592,11 +562,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
@@ -627,11 +595,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela">
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>
