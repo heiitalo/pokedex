@@ -18,7 +18,7 @@ const Pokedex = (props) => {
     }
     console.log("pokemons", pokemons)
     return (
-        <div>
+        <div className="boddy">
             <div className="pokedex-header">
                 <h1>Pokedex!</h1>
                 <Pagination
