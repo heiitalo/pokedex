@@ -32,11 +32,9 @@ const PokemonTela = () => {
         <div className="pokemon-tela-moves">
           {pokemon.state.moves.map((move, index) => {
             return (
-              <Link to="/PokemonMoveTela" state={move}>
-                <div key={index} className="pokemon-tela-move">
-                  <h3>{move.move.name}</h3>
-                </div>
-              </Link>
+              <div key={index} className="pokemon-tela-move">
+                <h3>{move.move.name}</h3>
+              </div>
             );
           })}
         </div>

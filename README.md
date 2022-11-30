@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Projeto Pokedex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi feito em react JS, seguindo alguns guias do youtube e com algumas melhorias feitas por mim mesmo.
 
-## Available Scripts
+## tela inicial !
+
+<img src="https://i.imgur.com/hjOZL9b.png">
 
 In the project directory, you can run:
 
