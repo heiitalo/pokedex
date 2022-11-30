@@ -1,6 +1,6 @@
 # Projeto Pokedex
 
-<a href="https://pokedex-italo.vercel.app/"><h3>Meu Projeto Pokedex</h3></a>
+Para acessar meu projeto clique:<a href="https://pokedex-italo.vercel.app/">Aqui</a>
 
 Esse projeto foi feito em react JS, seguindo alguns guias do youtube e com algumas melhorias feitas por mim mesmo.
 Nesse projeto, foi utilizado a API <a href="https://pokeapi.co/">PokéApi</a>
